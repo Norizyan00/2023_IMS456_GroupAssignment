@@ -1,0 +1,142 @@
+/* CSS Document */
+
+
+
+.page {margin: auto; 
+    max-width: 85%; 
+    padding: 0;}
+
+.container {background-color: #a2c6a9;}
+
+/* Main Section */
+
+td a {font-family: Georgia, serif; 
+   font-size: 25px; 
+   text-decoration: none;}
+
+
+td:hover {background-color: linen;}
+
+
+a:hover {font-size: 35px;}
+
+
+.nav-main a {color: black;}
+
+
+a {color: white;}
+
+
+
+/* Content Section */
+
+
+main {background-color:#f9dcdd; 
+   padding:30px; 
+   margin:10px; 
+   width:80%; 
+   float:center; 
+   text-indent:10px;}
+
+
+
+.one-content {font-family: Arial, Helvetica, sans-serif;
+          color:black ; 
+          border-style:double ;  
+          padding:20px ;
+          margin:0px;}
+
+
+.two-content {font-family: Arial, Helvetica, sans-serif;
+          color:black ; 
+          border-style:double ;  
+          padding:20px ;
+          margin: 0px;}
+
+             
+
+h1 {font-family: Georgia, serif;  
+   border-style:double ; 
+   background-color: #CA9D9D;}
+
+
+
+
+* {box-sizing: border-box;}
+
+.column1 {float: left;
+          width: 33.33%;
+        padding: 5px;}
+
+.column2 {float: left;
+         width: 33.33%;
+         padding: 5px; }
+
+.column3 {float: left;
+         width: 33.33%;
+         padding: 5px; }
+
+.column4 {float: left;
+         width: 33.33%;
+         padding: 5px;}
+  
+.column5 {float: left;
+         width: 33.33%;
+         padding: 5px; }
+  
+.column6 {float: left;
+         width: 33.33%;
+         padding: 5px; }
+
+
+/* Clearfix (clear floats) */
+.row::after { content: "";
+            clear: both;
+            display: table; }
+
+            .box1
+            {
+                width: 25%;
+                background-color:#CA9D9D;
+                padding-bottom: 120px;
+                float: left;
+            } 
+        
+        .box2
+            {
+                width: 25%;
+                background-color:#F7C4C3;
+                padding-bottom: 100px;
+                float: left;
+            }
+        
+        .box3
+        {
+            width: 25%;
+            background-color:#CA9D9D;
+            padding-bottom: 100px;
+            float: left;
+        }
+        .box4
+            {
+                width: 25%;
+                background-color:#F7C4C3;
+                padding-bottom: 120px;
+                float: left;
+            }
+        
+
+
+
+
+/* Footer Section */
+
+.one-footer { font-family: Arial, Helvetica, sans-serif; 
+          padding:14px 24px; 
+          clear:both; 
+          margin:15px;}
+
+.button { background-color: tan; 
+         padding:6px;
+         margin: 2px;
+         cursor: pointer; }
